@@ -1,17 +1,17 @@
 Online Code Editor 🚀
 
-A responsive and feature-rich online code editor built with React and CodeMirror. Write, edit, and preview HTML, CSS, and JavaScript code in real-time, with a sleek interface inspired by tools like CodePen. Perfect for developers, learners, and anyone who loves coding! 🎨
+A responsive, feature-rich online code editor built with React and CodeMirror. Write, edit, and preview HTML, CSS, and JavaScript code in real-time. Inspired by CodePen, it offers a sleek, user-friendly interface for developers and learners alike. 🎉
 
 ✨ Features
 
-Real-Time Preview: See your HTML, CSS, and JavaScript changes instantly in a live iframe.
+Real-Time Preview: See HTML, CSS, and JavaScript changes instantly in a live iframe.
 Responsive Design: Optimized for mobile 📱, tablet, and desktop screens.
 Dark/Light Themes: Toggle between dark 🌙 and light ☀️ modes with CodeMirror themes.
 Flexible Layouts: Choose output position (bottom, right, or left) via a dropdown.
 Editor Controls:
 Maximize/minimize editor panels for focused coding.
 Format code for HTML, CSS, and JavaScript.
-Enable auto-run for real-time updates (500ms debounce).
+Auto-run code with a 500ms debounce for real-time updates.
 Clear all editors or download code as an HTML file.
 
 Touch-Friendly: Larger buttons and dropdowns for mobile usability.
@@ -20,7 +20,7 @@ Syntax Highlighting: Powered by CodeMirror for HTML, CSS, and JavaScript.
 🌐 Demo
 Try the live demo here (replace with your deployed URL if available).
 🛠️ Installation
-Get the project running locally in a few steps:
+Set up the project locally with these steps:
 
 Clone the Repository:
 git clone https://github.com/milauog/online-code-editor.git
@@ -47,7 +47,14 @@ CodeMirror: ^6.0.1
 react-icons: ^5.3.0
 
 Install them with:
-npm install react @uiw/react-codemirror @codemirror/lang-html @codemirror/lang-css @codemirror/lang-javascript @codemirror/theme-one-dark @uiw/codemirror-theme-github react-icons
+npm install react
+@uiw/react-codemirror
+@codemirror/lang-html
+@codemirror/lang-css
+@codemirror/lang-javascript
+@codemirror/theme-one-dark
+@uiw/codemirror-theme-github
+react-icons
 
 🎮 Usage
 
@@ -77,12 +84,12 @@ online-code-editor/
 ├── LICENSE
 
 🤝 Contributing
-Contributions are welcome! Here's how to get started:
+We welcome contributions! Follow these steps:
 
 Fork the repository.
 Create a new branch:git checkout -b feature/your-feature
 
-Make your changes and commit:git commit -m "Add your feature"
+Make changes and commit:git commit -m "Add your feature"
 
 Push to the branch:git push origin feature/your-feature
 
@@ -99,8 +106,8 @@ LinkedIn: millyon-tilahun
 
 🙌 Acknowledgements
 
-CodeMirror for amazing syntax highlighting.
-React for a powerful frontend framework.
-react-icons for beautiful icons.
+CodeMirror for syntax highlighting.
+React for the frontend framework.
+react-icons for icons.
 
-⭐ Star this project on GitHub if you find it useful!💬 Feel free to open an issue or reach out with feedback!
+⭐ Star this project on GitHub if you find it useful!💬 Open an issue or reach out with feedback!
