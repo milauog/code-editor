@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+Online Code Editor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive, feature-rich online code editor built with React and CodeMirror, allowing users to write, edit, and preview HTML, CSS, and JavaScript code in real-time. Inspired by tools like CodePen, this project supports dark/light themes, flexible layouts, code formatting, and more, making it ideal for developers and learners.
 
-## Available Scripts
+Features
 
-In the project directory, you can run:
+Real-Time Code Preview: Write HTML, CSS, and JavaScript, and see the output instantly in an iframe.
+Responsive Design: Fully optimized for mobile, tablet, and desktop devices.
+Dark/Light Themes: Toggle between dark and light modes with CodeMirror theme integration.
+Flexible Layouts: Choose from three output positions (bottom, right, left) via a dropdown.
+Editor Controls:
+Maximize/minimize editor panels.
+Format code for HTML, CSS, and JavaScript.
+Auto-run code with a 500ms debounce.
+Clear all editors or download the combined code as an HTML file.
 
-### `npm start`
+Touch-Friendly: Larger buttons and dropdowns for mobile usability.
+Syntax Highlighting: Powered by CodeMirror with support for HTML, CSS, and JavaScript.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Demo
+Try the live demo here (replace with your deployed URL if available).
+Installation
+Follow these steps to set up the project locally:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone the Repository:
+git clone https://github.com/milauog/online-code-editor.git
+cd online-code-editor
 
-### `npm test`
+Install Dependencies:
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Run the Development Server:
+npm start
 
-### `npm run build`
+The app will be available at http://localhost:3000.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React: ^18.2.0
+CodeMirror: ^6.0.1
+@uiw/react-codemirror: ^4.21.21
+@codemirror/lang-html: ^6.4.9
+@codemirror/lang-css: ^6.2.1
+@codemirror/lang-javascript: ^6.2.2
+@codemirror/theme-one-dark: ^6.1.2
+@uiw/codemirror-theme-github: ^4.23.0
+react-icons: ^5.3.0
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Install them using:
+npm install react @uiw/react-codemirror @codemirror/lang-html @codemirror/lang-css @codemirror/lang-javascript @codemirror/theme-one-dark @uiw/codemirror-theme-github react-icons
 
-### `npm run eject`
+Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Open the app in your browser.
+Write or edit code in the HTML, CSS, or JavaScript editors.
+Click Run to see the output, or enable Auto-run for real-time updates.
+Use the toolbar to:
+Toggle themes (Dark/Light).
+Switch layout (Output Bottom, Right, Left).
+Adjust font size (Small, Medium, Large, X-Large).
+Clear editors or download the code.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Use the dropdowns in each editor to format code or maximize/minimize panels.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Project Structure
+online-code-editor/
+├── public/
+│ ├── index.html
+│ └── favicon.ico
+├── src/
+│ ├── App.js
+│ ├── App.css
+│ └── index.js
+├── package.json
+├── README.md
+├── .gitignore
+└── LICENSE
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contributing
+Contributions are welcome! To contribute:
 
-## Learn More
+Fork the repository.
+Create a new branch (git checkout -b feature/your-feature).
+Make your changes and commit (git commit -m "Add your feature").
+Push to the branch (git push origin feature/your-feature).
+Open a Pull Request.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Please ensure your code follows the existing style and includes tests where applicable.
+License
+This project is licensed under the MIT License.
+Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Millyon Tilahun
+GitHub: milauog
+LinkedIn: millyon-tilahun
 
-### Code Splitting
+Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+CodeMirror for syntax highlighting and editor functionality.
+React for the frontend framework.
+react-icons for icons.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⭐ If you find this project useful, give it a star on GitHub!
