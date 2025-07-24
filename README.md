@@ -1,113 +1,46 @@
-Online Code Editor 🚀
+# Getting Started with Create React App
 
-A responsive, feature-rich online code editor built with React and CodeMirror. Write, edit, and preview HTML, CSS, and JavaScript code in real-time. Inspired by CodePen, it offers a sleek, user-friendly interface for developers and learners alike. 🎉
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-✨ Features
+## Available Scripts
 
-Real-Time Preview: See HTML, CSS, and JavaScript changes instantly in a live iframe.
-Responsive Design: Optimized for mobile 📱, tablet, and desktop screens.
-Dark/Light Themes: Toggle between dark 🌙 and light ☀️ modes with CodeMirror themes.
-Flexible Layouts: Choose output position (bottom, right, or left) via a dropdown.
-Editor Controls:
-Maximize/minimize editor panels for focused coding.
-Format code for HTML, CSS, and JavaScript.
-Auto-run code with a 500ms debounce for real-time updates.
-Clear all editors or download code as an HTML file.
+In the project directory, you can run:
 
-Touch-Friendly: Larger buttons and dropdowns for mobile usability.
-Syntax Highlighting: Powered by CodeMirror for HTML, CSS, and JavaScript.
+### `npm start`
 
-🌐 Demo
-Try the live demo here (replace with your deployed URL if available).
-🛠️ Installation
-Set up the project locally with these steps:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Clone the Repository:
-git clone https://github.com/milauog/online-code-editor.git
-cd online-code-editor
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-Install Dependencies:
-npm install
+### `npm test`
 
-Run the Development Server:
-npm start
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Open http://localhost:3000 in your browser.
+### `npm run build`
 
-📦 Dependencies
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-React: ^18.2.0
-CodeMirror: ^6.0.1
-@uiw/react-codemirror: ^4.21.21
-@codemirror/lang-html: ^6.4.9
-@codemirror/lang-css: ^6.2.1
-@codemirror/lang-javascript: ^6.2.2
-@codemirror/theme-one-dark: ^6.1.2
-@uiw/codemirror-theme-github: ^4.23.0
-react-icons: ^5.3.0
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Install them with:
-npm install react
-@uiw/react-codemirror
-@codemirror/lang-html
-@codemirror/lang-css
-@codemirror/lang-javascript
-@codemirror/theme-one-dark
-@uiw/codemirror-theme-github
-react-icons
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-🎮 Usage
+### `npm run eject`
 
-Open the app in your browser.
-Write or edit code in the HTML, CSS, or JavaScript editors.
-Click Run ▶️ to view the output, or enable Auto-run for instant updates.
-Use the toolbar to:
-Toggle themes (Dark 🌙 / Light ☀️).
-Switch layouts (Output Bottom, Right, or Left).
-Adjust font size (Small, Medium, Large, X-Large).
-Clear editors 🗑️ or download code ⬇️.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Use editor dropdowns to format code or maximize/minimize panels.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-📂 Project Structure
-online-code-editor/
-├── public/
-│ ├── index.html
-│ ├── favicon.ico
-├── src/
-│ ├── App.js
-│ ├── App.css
-│ ├── index.js
-├── package.json
-├── README.md
-├── .gitignore
-├── LICENSE
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-🤝 Contributing
-We welcome contributions! Follow these steps:
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Fork the repository.
-Create a new branch:git checkout -b feature/your-feature
+## Learn More
 
-Make changes and commit:git commit -m "Add your feature"
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Push to the branch:git push origin feature/your-feature
-
-Open a Pull Request on GitHub.
-
-Please follow the existing code style and include tests if applicable.
-📜 License
-This project is licensed under the MIT License.
-👨‍💻 Author
-
-Millyon Tilahun
-GitHub: milauog
-LinkedIn: millyon-tilahun
-
-🙌 Acknowledgements
-
-CodeMirror for syntax highlighting.
-React for the frontend framework.
-react-icons for icons.
-
-⭐ Star this project on GitHub if you find it useful!💬 Open an issue or reach out with feedback!
+To learn React, check out the [React documentation](https://reactjs.org/).
